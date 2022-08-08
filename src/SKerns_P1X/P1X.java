@@ -8,8 +8,8 @@ package SKerns_P1X;
 import java.util.Scanner;   //import the Scanner class
 
 /**
- * This program gives the user a welcome message, plays a tic-tac-toe game
- * until the player no longer wants to and then provides a goodbye message
+ * This program plays games of Tic-Tac-Toe boards of the size requested by the
+ * user and will continue to play them until the user no longer wants
  *
  * @author Stewart Kerns
  * @version 1.0
@@ -54,7 +54,7 @@ public class P1X {
         //declare an int for boardsize
         int boardSize;
         //until a number in the specified range is provided, ask the user what
-        //boardsize they want to play on
+        //board size they want to play on
         do {
             System.out.print("\nWhat size of board would you like to play on?" +
                     "\n3 is the minimum, 15 is the largest, and the number " +
@@ -67,9 +67,6 @@ public class P1X {
             }
             //set the board size to the int chosen by the user
             boardSize = keyboardIn.nextInt();
-//            while (boardSize % 2 != 1){
-//                System.out.print("That's not an odd number")
-//            }
         }while (boardSize < 3 || boardSize > 15 || boardSize % 2 == 0);
         //return the board size
         return boardSize;
@@ -80,10 +77,10 @@ public class P1X {
      */
     public static void welcome(){
         System.out.println("\nWelcome to the P1 program, this program will " +
-                "allow two users to play\na game of Tic-Tac-Toe for as many" +
+                "allow two users to play\na game of Tic-Tac-Toe for as many " +
                 "rounds as they would like.\nPlayer X will go first and it " +
                 "will alternate from there.\nYou can play on a standard 3x3 " +
-                "board or a larger board (up to 15x15).\n");
+                "board or larger (up to and including 15x15).\n");
     }
 
     /**

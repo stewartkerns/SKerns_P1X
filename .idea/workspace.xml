@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbbaedb5-613d-443e-9ed7-fd205d5d956c" name="Changes" comment="">
+    <list default="true" id="fbbaedb5-613d-443e-9ed7-fd205d5d956c" name="Changes" comment="Added a size game method to p1x to allow the user to play on a larger than 3x3 board">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SKerns_P1X/P1X.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SKerns_P1X/P1X.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SKerns_P1X/TicTacToeX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SKerns_P1X/TicTacToeX.java" afterDir="false" />
@@ -72,8 +72,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659902643853</updated>
-      <workItem from="1659902645820" duration="5554000" />
+      <workItem from="1659902645820" duration="16514000" />
     </task>
+    <task id="LOCAL-00001" summary="Added a size game method to p1x to allow the user to play on a larger than 3x3 board">
+      <created>1659915582191</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659915582191</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,5 +97,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added a size game method to p1x to allow the user to play on a larger than 3x3 board" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a size game method to p1x to allow the user to play on a larger than 3x3 board" />
   </component>
 </project>
